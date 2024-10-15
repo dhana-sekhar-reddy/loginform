@@ -53,7 +53,7 @@
                 <select name="country">
                   <option value="India">CSE</option>
                   <option value="USA">IT</option>
-                  <option value="UK">EEE</option>
+                  <option value="UK">CB</option>
                   <option value="Other">ECE</option>
                 </select>
               </td>
