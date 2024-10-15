@@ -7,9 +7,12 @@ pageEncoding="UTF-8"%>
     <title>Insert title here</title>
   </head>
   <body>
-    <% JspWriter pw = out; //String us="sai"; //String ps="chaganti"; String
-    us1=request.getParameter("a"); String pw1=request.getParameter("b"); if(us1
-    != null && pw1 != null){ pw.print("
+    <% JspWriter pw = out; 
+    //String us="sai"; 
+    //String ps="chaganti"; 
+    String us1=request.getParameter("a"); 
+    String pw1=request.getParameter("b"); 
+if(us1!= null && pw1 != null){ pw.print("
     <div style="color: green; text-align: center">
       <h1>Successfully Logged In...!"+us1+"</h1>
     </div>
